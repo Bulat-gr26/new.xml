@@ -1,1 +1,22 @@
-
+<bag_rep>
+<header>
+  <Summary>Краткое описание сути проблемы (что, где, когда) </Summary>
+  <Project>Название тестируемого проекта</Project>
+  <Component>Название части или функции тестируемого проекта</Component>
+  <Version>Версия на которой была найдена ошибка</Version>
+  <Severity>Степень серьёзности влияния на систему</Severity>
+  <Priority>Приоритет бага</Priority>
+  <Status>Статус бага</Status>
+  <Author>Создатель баг репорта</Author>
+  <Assigned_to>Сотрудник назначенный на решение проблемы</Assigned_to>
+</header>
+<Environment>
+  <Info>Информация об окружении</Info>
+</Environment>
+<Description>
+   <Steps>Шаги для воспроизведения</Steps>
+   <Actual>Фактический результат</Actual>
+   <Expected>Ожидаемый результат</Expected>
+</Description>
+<Attachments>Вложения (Cкриншоты, фото, видеозапись или иные файлы)</Attachments>
+</bag_rep>
